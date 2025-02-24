@@ -15,9 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Domain", "Core\EC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Infrastructure", "Infrastructure\ECommerce.Infrastructure\ECommerce.Infrastructure.csproj", "{55327FD4-4309-4304-BA0B-B7639E55FA75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Persistance", "Infrastructure\ECommerce.Persistance\ECommerce.Persistance.csproj", "{1E1EA0BD-E73F-4886-A121-41DCB0DDD18C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Persistance", "Infrastructure\ECommerce.Persistance\ECommerce.Persistance.csproj", "{1E1EA0BD-E73F-4886-A121-41DCB0DDD18C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.API", "Presentation\ECommerce.API\ECommerce.API.csproj", "{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.API", "Presentation\ECommerce.API\ECommerce.API.csproj", "{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,4 +1,4 @@
-
+using ECommerce.Persistance;
 namespace ECommerce.API
 {
 	public class Program
@@ -14,10 +14,12 @@ namespace ECommerce.API
 			builder.Services.AddEndpointsApiExplorer();
 			builder.Services.AddSwaggerGen();
 			var env = builder.Environment;	
+
 			builder.Configuration.SetBasePath(env.ContentRootPath)
 				.AddJsonFile("appsettings.json", optional: false)
 				.AddJsonFile($"appsettings{env.EnvironmentName}", optional: true);
 
+			builder.Services.AddPersistance(builder.Configuration);
 
 			var app = builder.Build();
 
