@@ -1,4 +1,9 @@
 using ECommerce.Persistance;
+using ECommerce.Application;
+using ECommerce.Mapper;
+using ECommerce.Application.Repositories.Interfaces.AutoMapper;
+
+
 namespace ECommerce.API
 {
 	public class Program
@@ -20,6 +25,8 @@ namespace ECommerce.API
 				.AddJsonFile($"appsettings{env.EnvironmentName}", optional: true);
 
 			builder.Services.AddPersistance(builder.Configuration);
+			builder.Services.AddApplication();
+			builder.Services.AddMapper();
 
 			var app = builder.Build();
 

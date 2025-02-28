@@ -2,7 +2,9 @@ C:\Users\namjoon\source\repos\ECommerce\Infrastructure\ECommerce.Persistance\bin
 C:\Users\namjoon\source\repos\ECommerce\Infrastructure\ECommerce.Persistance\bin\Debug\net8.0\ECommerce.Persistance.runtimeconfig.json
 C:\Users\namjoon\source\repos\ECommerce\Infrastructure\ECommerce.Persistance\bin\Debug\net8.0\ECommerce.Persistance.dll
 C:\Users\namjoon\source\repos\ECommerce\Infrastructure\ECommerce.Persistance\bin\Debug\net8.0\ECommerce.Persistance.pdb
+C:\Users\namjoon\source\repos\ECommerce\Infrastructure\ECommerce.Persistance\bin\Debug\net8.0\ECommerce.Application.dll
 C:\Users\namjoon\source\repos\ECommerce\Infrastructure\ECommerce.Persistance\bin\Debug\net8.0\ECommerce.Domain.dll
+C:\Users\namjoon\source\repos\ECommerce\Infrastructure\ECommerce.Persistance\bin\Debug\net8.0\ECommerce.Application.pdb
 C:\Users\namjoon\source\repos\ECommerce\Infrastructure\ECommerce.Persistance\bin\Debug\net8.0\ECommerce.Domain.pdb
 C:\Users\namjoon\source\repos\ECommerce\Infrastructure\ECommerce.Persistance\obj\Debug\net8.0\ECommerce.Persistance.csproj.AssemblyReference.cache
 C:\Users\namjoon\source\repos\ECommerce\Infrastructure\ECommerce.Persistance\obj\Debug\net8.0\ECommerce.Persistance.GeneratedMSBuildEditorConfig.editorconfig

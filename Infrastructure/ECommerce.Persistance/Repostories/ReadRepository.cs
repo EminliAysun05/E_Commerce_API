@@ -60,13 +60,7 @@ namespace ECommerce.Persistance.Repostories
 			return await queryable.FirstOrDefaultAsync(predicate) ; 
  		}
 
-		public async Task<int> CountAsync(Expression<Func<T, bool>>? predicate = null)
-		{
-			Table.AsNoTracking();
-			if (predicate is not null) Table.Where(predicate);
-
-			return await Table.Where(predicate).CountAsync();
-		}
+		
 
 		public IQueryable<T> Find(Expression<Func<T, bool>> predicate, bool enableTracking = false)
 		{
@@ -74,9 +68,13 @@ namespace ECommerce.Persistance.Repostories
 			return Table.Where(predicate);
 		}
 
-		
+		public  Task<int> CountAsync(Expression<Func<T, bool>>? predicate = null)
+		{
+			Table.AsNoTracking();
+			if (predicate is not null) Table.Where(predicate);
 
-	
+			return  Table.Where(predicate).CountAsync();
+		}
 
 		
 	}
