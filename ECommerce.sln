@@ -19,7 +19,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Persistance", "In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.API", "Presentation\ECommerce.API\ECommerce.API.csproj", "{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.Mapper", "ECommerce.Mapper\ECommerce.Mapper.csproj", "{A743F6E4-25E0-4AF1-9AD1-ED89335C0B1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Mapper", "ECommerce.Mapper\ECommerce.Mapper.csproj", "{A743F6E4-25E0-4AF1-9AD1-ED89335C0B1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{67711E81-AD68-43FD-BE44-FD125ECCF1ED}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

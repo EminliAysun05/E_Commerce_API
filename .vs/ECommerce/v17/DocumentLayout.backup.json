@@ -3,44 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}|Presentation\\ECommerce.API\\ECommerce.API.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\presentation\\ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}|Presentation\\ECommerce.API\\ECommerce.API.csproj|solutionrelative:presentation\\ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\features\\products\\commands\\deleteproduct\\deleteproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\features\\products\\commands\\deleteproduct\\deleteproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A743F6E4-25E0-4AF1-9AD1-ED89335C0B1D}|ECommerce.Mapper\\ECommerce.Mapper.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\ecommerce.mapper\\mapperregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A743F6E4-25E0-4AF1-9AD1-ED89335C0B1D}|ECommerce.Mapper\\ECommerce.Mapper.csproj|solutionrelative:ecommerce.mapper\\mapperregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\features\\products\\commands\\updateproduct\\updateproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\features\\products\\commands\\updateproduct\\updateproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A743F6E4-25E0-4AF1-9AD1-ED89335C0B1D}|ECommerce.Mapper\\ECommerce.Mapper.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\ecommerce.mapper\\automapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A743F6E4-25E0-4AF1-9AD1-ED89335C0B1D}|ECommerce.Mapper\\ECommerce.Mapper.csproj|solutionrelative:ecommerce.mapper\\automapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\features\\products\\commands\\createproduct\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\features\\products\\commands\\createproduct\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\repositories\\interfaces\\automapper\\imapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\repositories\\interfaces\\automapper\\imapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\features\\products\\commands\\createproduct\\createproductcommonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\features\\products\\commands\\createproduct\\createproductcommonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\ecommerceapplicationregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\ecommerceapplicationregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\features\\products\\commands\\createproduct\\createproductcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\features\\products\\commands\\createproduct\\createproductcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A743F6E4-25E0-4AF1-9AD1-ED89335C0B1D}|ECommerce.Mapper\\ECommerce.Mapper.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\ecommerce.mapper\\ecommerce.mapper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A743F6E4-25E0-4AF1-9AD1-ED89335C0B1D}|ECommerce.Mapper\\ECommerce.Mapper.csproj|solutionrelative:ecommerce.mapper\\ecommerce.mapper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\beheviors\\fluentvalidationbehevior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\beheviors\\fluentvalidationbehevior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\dtos\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\dtos\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\features\\queries\\getallproducts\\getallproductsqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\features\\queries\\getallproducts\\getallproductsqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\features\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\features\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\features\\queries\\getallproducts\\getallproductsqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\features\\queries\\getallproducts\\getallproductsqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\features\\queries\\getallproducts\\getallproductsqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\features\\queries\\getallproducts\\getallproductsqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}|Presentation\\ECommerce.API\\ECommerce.API.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\presentation\\ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}|Presentation\\ECommerce.API\\ECommerce.API.csproj|solutionrelative:presentation\\ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\exceptions\\exceptionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\exceptions\\exceptionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\ecommerceapplicationregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\ecommerceapplicationregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\exceptions\\configureexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\exceptions\\configureexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\features\\queries\\getallbrands\\getallbrandqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\features\\queries\\getallbrands\\getallbrandqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A743F6E4-25E0-4AF1-9AD1-ED89335C0B1D}|ECommerce.Mapper\\ECommerce.Mapper.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\ecommerce.mapper\\ecommerce.mapper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A743F6E4-25E0-4AF1-9AD1-ED89335C0B1D}|ECommerce.Mapper\\ECommerce.Mapper.csproj|solutionrelative:ecommerce.mapper\\ecommerce.mapper.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E1EA0BD-E73F-4886-A121-41DCB0DDD18C}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\infrastructure\\ecommerce.persistance\\ecommerce.persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1E1EA0BD-E73F-4886-A121-41DCB0DDD18C}|Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj|solutionrelative:infrastructure\\ecommerce.persistance\\ecommerce.persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}|Presentation\\ECommerce.API\\ECommerce.API.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\presentation\\ecommerce.api\\ecommerce.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}|Presentation\\ECommerce.API\\ECommerce.API.csproj|solutionrelative:presentation\\ecommerce.api\\ecommerce.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\features\\brands\\commands\\createbrand\\createbrandcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\features\\brands\\commands\\createbrand\\createbrandcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\ecommerce.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\ecommerce.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}|Presentation\\ECommerce.API\\ECommerce.API.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\presentation\\ecommerce.api\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}|Presentation\\ECommerce.API\\ECommerce.API.csproj|solutionrelative:presentation\\ecommerce.api\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\features\\brands\\commands\\createbrand\\createproductcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\features\\brands\\commands\\createbrand\\createproductcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,60 +98,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MapperRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\ECommerce.Mapper\\MapperRegistration.cs",
-              "RelativeDocumentMoniker": "ECommerce.Mapper\\MapperRegistration.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\ECommerce.Mapper\\MapperRegistration.cs*",
-              "RelativeToolTip": "ECommerce.Mapper\\MapperRegistration.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T09:11:10.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetAllProductsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
-              "RelativeToolTip": "Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAowCYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T08:41:34.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetAllProductsQueryResponse.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryResponse.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryResponse.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryResponse.cs",
-              "RelativeToolTip": "Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryResponse.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAMwA4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T08:39:30.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ECommerce.Application",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\ECommerce.Application.csproj",
-              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\ECommerce.Application.csproj",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\ECommerce.Application.csproj",
-              "RelativeToolTip": "Core\\ECommerce.Application\\ECommerce.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-28T08:38:06.392Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -118,80 +114,288 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BrandDto.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\DTOs\\BrandDto.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\DTOs\\BrandDto.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\DTOs\\BrandDto.cs",
-              "RelativeToolTip": "Core\\ECommerce.Application\\DTOs\\BrandDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T08:38:19.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Presentation\\ECommerce.API\\Program.cs",
-              "RelativeDocumentMoniker": "Presentation\\ECommerce.API\\Program.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Presentation\\ECommerce.API\\Program.cs*",
-              "RelativeToolTip": "Presentation\\ECommerce.API\\Program.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Title": "DeleteProductCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommandValidator.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommandValidator.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommandValidator.cs*",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Features\\Products\\Commands\\DeleteProduct\\DeleteProductCommandValidator.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T08:27:05.631Z",
+              "WhenOpened": "2025-03-09T07:58:13.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ECommerceApplicationRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\ECommerceApplicationRegistration.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\ECommerceApplicationRegistration.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\ECommerceApplicationRegistration.cs",
-              "RelativeToolTip": "Core\\ECommerce.Application\\ECommerceApplicationRegistration.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UpdateProductCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommandValidator.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommandValidator.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommandValidator.cs*",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommandValidator.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T08:26:04.977Z",
+              "WhenOpened": "2025-03-09T07:54:18.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ECommerce.Mapper.csproj",
+              "DocumentIndex": 17,
+              "Title": "ECommerce.API",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Presentation\\ECommerce.API\\ECommerce.API.csproj",
+              "RelativeDocumentMoniker": "Presentation\\ECommerce.API\\ECommerce.API.csproj",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Presentation\\ECommerce.API\\ECommerce.API.csproj",
+              "RelativeToolTip": "Presentation\\ECommerce.API\\ECommerce.API.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-07T16:06:21.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ECommerce.Mapper",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\ECommerce.Mapper\\ECommerce.Mapper.csproj",
               "RelativeDocumentMoniker": "ECommerce.Mapper\\ECommerce.Mapper.csproj",
               "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\ECommerce.Mapper\\ECommerce.Mapper.csproj",
               "RelativeToolTip": "ECommerce.Mapper\\ECommerce.Mapper.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-27T12:26:22.369Z",
+              "WhenOpened": "2025-03-07T15:45:44.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ECommerce.Persistance",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj",
+              "RelativeToolTip": "Infrastructure\\ECommerce.Persistance\\ECommerce.Persistance.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-07T15:45:27.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Mapper.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\ECommerce.Mapper\\AutoMapper\\Mapper.cs",
-              "RelativeDocumentMoniker": "ECommerce.Mapper\\AutoMapper\\Mapper.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\ECommerce.Mapper\\AutoMapper\\Mapper.cs",
-              "RelativeToolTip": "ECommerce.Mapper\\AutoMapper\\Mapper.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDAAAAAbAAAAAAAAAA==",
+              "Title": "CreateProductCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T12:26:33.482Z",
+              "WhenOpened": "2025-03-07T08:52:35.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FluentValidationBehevior.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Beheviors\\FluentValidationBehevior.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Beheviors\\FluentValidationBehevior.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Beheviors\\FluentValidationBehevior.cs*",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Beheviors\\FluentValidationBehevior.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T08:29:21.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ECommerceApplicationRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\ECommerceApplicationRegistration.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\ECommerceApplicationRegistration.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\ECommerceApplicationRegistration.cs",
+              "RelativeToolTip": "Core\\ECommerce.Application\\ECommerceApplicationRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T12:37:40.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Presentation\\ECommerce.API\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\ECommerce.API\\Program.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Presentation\\ECommerce.API\\Program.cs",
+              "RelativeToolTip": "Presentation\\ECommerce.API\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAC0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T12:33:14.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConfigureExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Exceptions\\ConfigureExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Exceptions\\ConfigureExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Exceptions\\ConfigureExceptionMiddleware.cs",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Exceptions\\ConfigureExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T12:30:58.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExceptionModel.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Exceptions\\ExceptionModel.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Exceptions\\ExceptionModel.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Exceptions\\ExceptionModel.cs",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Exceptions\\ExceptionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T10:03:07.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ECommerce.Application",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\ECommerce.Application.csproj",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\ECommerce.Application.csproj",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\ECommerce.Application.csproj",
+              "RelativeToolTip": "Core\\ECommerce.Application\\ECommerce.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-06T09:34:31.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExceptionMiddleWare.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Exceptions\\ExceptionMiddleWare.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Exceptions\\ExceptionMiddleWare.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Exceptions\\ExceptionMiddleWare.cs",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Exceptions\\ExceptionMiddleWare.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwC0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T09:34:38.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateBrandCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Brands\\Commands\\CreateBrand\\CreateBrandCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Brands\\Commands\\CreateBrand\\CreateBrandCommandResponse.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Brands\\Commands\\CreateBrand\\CreateBrandCommandResponse.cs",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Features\\Brands\\Commands\\CreateBrand\\CreateBrandCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T08:38:23.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateProductCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommandRequest.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommandRequest.cs",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T08:35:56.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetAllProductsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T07:13:46.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetAllProductsQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryResponse.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryResponse.cs",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryResponse.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T07:13:55.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetAllProductsQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryRequest.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryRequest.cs",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Features\\Queries\\GetAllProducts\\GetAllProductsQueryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T07:13:54.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetAllBrandQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Queries\\GetAllBrands\\GetAllBrandQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Queries\\GetAllBrands\\GetAllBrandQueryResponse.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Queries\\GetAllBrands\\GetAllBrandQueryResponse.cs",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Features\\Queries\\GetAllBrands\\GetAllBrandQueryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T07:13:43.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Presentation\\ECommerce.API\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "Presentation\\ECommerce.API\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Presentation\\ECommerce.API\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "Presentation\\ECommerce.API\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T07:02:59.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateProductCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Brands\\Commands\\CreateBrand\\CreateProductCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Brands\\Commands\\CreateBrand\\CreateProductCommandRequest.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Brands\\Commands\\CreateBrand\\CreateProductCommandRequest.cs",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Features\\Brands\\Commands\\CreateBrand\\CreateProductCommandRequest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T06:57:51.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IMapper.cs",
-              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Repositories\\Interfaces\\AutoMapper\\IMapper.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Repositories\\Interfaces\\AutoMapper\\IMapper.cs",
-              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Repositories\\Interfaces\\AutoMapper\\IMapper.cs",
-              "RelativeToolTip": "Core\\ECommerce.Application\\Repositories\\Interfaces\\AutoMapper\\IMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABVAAAAAAAAAA==",
+              "Title": "CreateProductCommonHandler.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommonHandler.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommonHandler.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommonHandler.cs",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Features\\Products\\Commands\\CreateProduct\\CreateProductCommonHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T12:12:53.815Z",
+              "WhenOpened": "2025-03-05T06:57:49.504Z",
               "EditorCaption": ""
             }
           ]

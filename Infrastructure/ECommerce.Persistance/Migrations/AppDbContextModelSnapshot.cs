@@ -22,21 +22,6 @@ namespace ECommerce.Persistance.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CategoryProduct", b =>
-                {
-                    b.Property<int>("CategoriesId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductsId")
-                        .HasColumnType("int");
-
-                    b.HasKey("CategoriesId", "ProductsId");
-
-                    b.HasIndex("ProductsId");
-
-                    b.ToTable("CategoryProduct");
-                });
-
             modelBuilder.Entity("ECommerce.Domain.Entities.Brand", b =>
                 {
                     b.Property<int>("Id")
@@ -64,23 +49,23 @@ namespace ECommerce.Persistance.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2025, 2, 23, 17, 55, 4, 104, DateTimeKind.Utc).AddTicks(9595),
+                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 453, DateTimeKind.Utc).AddTicks(6257),
                             IsDeleted = false,
-                            Name = "Music"
+                            Name = "Kids, Automotive & Shoes"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2025, 2, 23, 17, 55, 4, 104, DateTimeKind.Utc).AddTicks(9703),
+                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 453, DateTimeKind.Utc).AddTicks(6283),
                             IsDeleted = false,
-                            Name = "Shoes, Sports & Jewelery"
+                            Name = "Tools"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2025, 2, 23, 17, 55, 4, 104, DateTimeKind.Utc).AddTicks(9832),
+                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 453, DateTimeKind.Utc).AddTicks(6339),
                             IsDeleted = true,
-                            Name = "Grocery, Automotive & Movies"
+                            Name = "Books, Home & Shoes"
                         });
                 });
 
@@ -116,7 +101,7 @@ namespace ECommerce.Persistance.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2025, 2, 23, 17, 55, 4, 105, DateTimeKind.Utc).AddTicks(2081),
+                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 453, DateTimeKind.Utc).AddTicks(8430),
                             IsDeleted = false,
                             Name = "Electronics",
                             ParentId = 0,
@@ -125,7 +110,7 @@ namespace ECommerce.Persistance.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2025, 2, 23, 17, 55, 4, 105, DateTimeKind.Utc).AddTicks(2084),
+                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 453, DateTimeKind.Utc).AddTicks(8432),
                             IsDeleted = false,
                             Name = "Fashion",
                             ParentId = 0,
@@ -134,7 +119,7 @@ namespace ECommerce.Persistance.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2025, 2, 23, 17, 55, 4, 105, DateTimeKind.Utc).AddTicks(2085),
+                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 453, DateTimeKind.Utc).AddTicks(8434),
                             IsDeleted = false,
                             Name = "Laptop",
                             ParentId = 1,
@@ -143,7 +128,7 @@ namespace ECommerce.Persistance.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2025, 2, 23, 17, 55, 4, 105, DateTimeKind.Utc).AddTicks(2087),
+                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 453, DateTimeKind.Utc).AddTicks(8436),
                             IsDeleted = false,
                             Name = "Woman",
                             ParentId = 2,
@@ -187,28 +172,28 @@ namespace ECommerce.Persistance.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2025, 2, 23, 17, 55, 4, 106, DateTimeKind.Utc).AddTicks(6335),
-                            Description = "İn quia neque animi eos.",
+                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 455, DateTimeKind.Utc).AddTicks(6701),
+                            Description = "Possimus et maxime rem dolor.",
                             IsDeleted = false,
-                            Title = "İpsam."
+                            Title = "Atque."
                         },
                         new
                         {
                             Id = 2,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2025, 2, 23, 17, 55, 4, 106, DateTimeKind.Utc).AddTicks(6500),
-                            Description = "Doloribus nihil doloremque aliquam cumque.",
+                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 455, DateTimeKind.Utc).AddTicks(6882),
+                            Description = "Facilis magni cum impedit et.",
                             IsDeleted = false,
-                            Title = "İd."
+                            Title = "Quia."
                         },
                         new
                         {
                             Id = 3,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2025, 2, 23, 17, 55, 4, 106, DateTimeKind.Utc).AddTicks(6624),
-                            Description = "Nulla voluptas porro rerum quod.",
+                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 455, DateTimeKind.Utc).AddTicks(7051),
+                            Description = "İn voluptas ut ut delectus.",
                             IsDeleted = false,
-                            Title = "Velit."
+                            Title = "Et."
                         });
                 });
 
@@ -230,14 +215,14 @@ namespace ECommerce.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Discount")
-                        .HasColumnType("int");
+                    b.Property<decimal>("Discount")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<int>("Price")
-                        .HasColumnType("int");
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -254,39 +239,39 @@ namespace ECommerce.Persistance.Migrations
                         {
                             Id = 1,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2025, 2, 23, 17, 55, 4, 108, DateTimeKind.Utc).AddTicks(9076),
-                            Description = "Sit officia laudantium voluptates provident voluptatibus eum doloremque vel repellendus.",
-                            Discount = 8,
+                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 457, DateTimeKind.Utc).AddTicks(8742),
+                            Description = "İd ut praesentium quo alias suscipit ducimus dicta doloribus nihil.",
+                            Discount = 1m,
                             IsDeleted = false,
-                            Price = 103,
-                            Title = "Awesome Wooden Cheese"
+                            Price = 410.03m,
+                            Title = "Handcrafted Metal Keyboard"
                         },
                         new
                         {
                             Id = 2,
                             BrandId = 3,
-                            CreatedDate = new DateTime(2025, 2, 23, 17, 55, 4, 108, DateTimeKind.Utc).AddTicks(9452),
-                            Description = "Dolor cumque rem vel corporis praesentium velit quaerat architecto quia.",
-                            Discount = 3,
+                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 457, DateTimeKind.Utc).AddTicks(9049),
+                            Description = "Optio voluptatem nihil porro dolore aut dolorum qui suscipit aperiam.",
+                            Discount = 4m,
                             IsDeleted = false,
-                            Price = 184,
-                            Title = "Licensed Granite Mouse"
+                            Price = 711.50m,
+                            Title = "Intelligent Soft Sausages"
                         });
                 });
 
-            modelBuilder.Entity("CategoryProduct", b =>
+            modelBuilder.Entity("ECommerce.Domain.Entities.ProductCategory", b =>
                 {
-                    b.HasOne("ECommerce.Domain.Entities.Category", null)
-                        .WithMany()
-                        .HasForeignKey("CategoriesId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
 
-                    b.HasOne("ECommerce.Domain.Entities.Product", null)
-                        .WithMany()
-                        .HasForeignKey("ProductsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProductId", "CategoryId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("ProductCategories");
                 });
 
             modelBuilder.Entity("ECommerce.Domain.Entities.Detail", b =>
@@ -311,9 +296,35 @@ namespace ECommerce.Persistance.Migrations
                     b.Navigation("Brand");
                 });
 
+            modelBuilder.Entity("ECommerce.Domain.Entities.ProductCategory", b =>
+                {
+                    b.HasOne("ECommerce.Domain.Entities.Category", "Category")
+                        .WithMany("ProductCategories")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ECommerce.Domain.Entities.Product", "Product")
+                        .WithMany("ProductCategories")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("ECommerce.Domain.Entities.Category", b =>
                 {
                     b.Navigation("Details");
+
+                    b.Navigation("ProductCategories");
+                });
+
+            modelBuilder.Entity("ECommerce.Domain.Entities.Product", b =>
+                {
+                    b.Navigation("ProductCategories");
                 });
 #pragma warning restore 612, 618
         }

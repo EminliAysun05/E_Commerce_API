@@ -22,8 +22,8 @@ namespace ECommerce.Persistance.Configuration
 				Title = faker.Commerce.ProductName(),
 				Description = faker.Lorem.Sentence(10),
 				BrandId = 1,
-				Discount = (int)faker.Random.Decimal(0, 10),
-				Price = (int)faker.Finance.Amount(10,1000),
+				Discount = faker.Random.Decimal(0, 10),
+				Price = faker.Finance.Amount(10,1000),
 				CreatedDate = DateTime.UtcNow,
 				IsDeleted = false
 			};
@@ -34,8 +34,8 @@ namespace ECommerce.Persistance.Configuration
 				Title = faker.Commerce.ProductName(),
 				Description = faker.Lorem.Sentence(10),
 				BrandId = 3,
-				Discount = (int)faker.Random.Decimal(0, 10),
-				Price = (int)faker.Finance.Amount(10, 1000),
+				Discount = faker.Random.Decimal(0, 10),
+				Price = (decimal)faker.Finance.Amount(10, 1000),
 				CreatedDate = DateTime.UtcNow,
 				IsDeleted = false
 			};

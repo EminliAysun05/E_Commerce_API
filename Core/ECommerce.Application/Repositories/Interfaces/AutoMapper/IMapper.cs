@@ -16,4 +16,5 @@ namespace ECommerce.Application.Repositories.Interfaces.AutoMapper
 		IList<TDestination> Map<TDestination>(IList<object> source, string? ignore = null);
 
 	}
+	
 }

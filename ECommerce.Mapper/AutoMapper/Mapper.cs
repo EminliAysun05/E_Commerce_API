@@ -5,54 +5,88 @@ namespace ECommerce.Mapper.AutoMapper;
 
 public class Mapper : Application.Repositories.Interfaces.AutoMapper.IMapper
 {
-	public static List<TypePair> typePairs = new();
+	private static readonly List<TypePair> typePairs = new();
+	private static readonly object lockObject = new();
 	private IMapper MapperContainer;
 
-
+	public Mapper()
+	{
+		ConfigureMapper();
+	}
 
 	public TDestination Map<TDestination, TSource>(TSource source, string? ignore = null)
 	{
-		Config<TDestination, TSource>(5, ignore);
+		EnsureMappingExists<TDestination, TSource>(ignore);
 		return MapperContainer.Map<TSource, TDestination>(source);
-
 	}
 
 	public IList<TDestination> Map<TDestination, TSource>(IList<TSource> source, string? ignore = null)
 	{
-		Config<TDestination, TSource>(5, ignore);
+		EnsureMappingExists<TDestination, TSource>(ignore);
 		return MapperContainer.Map<IList<TSource>, IList<TDestination>>(source);
 	}
 
 	public TDestination Map<TDestination>(object source, string? ignore = null)
 	{
-		Config<TDestination, object>(5, ignore);
+		EnsureMappingExists<TDestination, object>(ignore);
 		return MapperContainer.Map<TDestination>(source);
 	}
 
 	public IList<TDestination> Map<TDestination>(IList<object> source, string? ignore = null)
 	{
-		Config<TDestination, object>(5, ignore);
+		EnsureMappingExists<TDestination, object>(ignore);
 		return MapperContainer.Map<IList<object>, IList<TDestination>>(source);
 	}
 
-	protected void Config<TDestination, TSource>(int depth = 5, string? ignore = null)
+	private void EnsureMappingExists<TDestination, TSource>(string? ignore)
 	{
-		var typePair = new TypePair(typeof(TDestination), typeof(TSource));
-		if (typePairs.Any(a => a.DestinationType == typePair.DestinationType && a.SourceType == typePair.SourceType && ignore is not null))
+		lock (lockObject)
+		{
+			var typePair = new TypePair(typeof(TDestination), typeof(TSource));
+			if (!typePairs.Any(a => a.DestinationType == typePair.DestinationType && a.SourceType == typePair.SourceType))
+			{
+				typePairs.Add(typePair);
+				ConfigureMapper();
+			}
+		}
+	}
 
-			typePairs.Add(typePair);
-
+	private void ConfigureMapper()
+	{
 		var config = new MapperConfiguration(cfg =>
 		{
-			foreach (var item in typePairs)
+			lock (lockObject)
 			{
-				if (ignore is not null)
-					cfg.CreateMap(item.SourceType, item.DestinationType).MaxDepth(depth).ForMember(ignore, opt => opt.Ignore());
-				else
-					cfg.CreateMap(item.SourceType, item.DestinationType).MaxDepth(depth).ReverseMap();
+				foreach (var item in typePairs)
+				{
+					var map = cfg.CreateMap(item.SourceType, item.DestinationType).MaxDepth(5);
+					if (!string.IsNullOrEmpty(item.IgnoreProperty))
+					{
+						map.ForMember(item.IgnoreProperty, opt => opt.Ignore());
+					}
+					else
+					{
+						map.ReverseMap();
+					}
+				}
 			}
 		});
-		MapperContainer = config.CreateMapper();
 
+		MapperContainer = config.CreateMapper();
 	}
 }
+
+public class TypePair
+{
+	public Type SourceType { get; }
+	public Type DestinationType { get; }
+	public string? IgnoreProperty { get; }
+
+	public TypePair(Type destinationType, Type sourceType, string? ignoreProperty = null)
+	{
+		DestinationType = destinationType;
+		SourceType = sourceType;
+		IgnoreProperty = ignoreProperty;
+	}
+}
+

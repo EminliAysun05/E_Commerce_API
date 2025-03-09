@@ -149,3 +149,7 @@ C:\Users\namjoon\source\repos\ECommerce\Presentation\ECommerce.API\bin\Debug\net
 C:\Users\namjoon\source\repos\ECommerce\Presentation\ECommerce.API\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\namjoon\source\repos\ECommerce\Presentation\ECommerce.API\bin\Debug\net8.0\ECommerce.Mapper.dll
 C:\Users\namjoon\source\repos\ECommerce\Presentation\ECommerce.API\bin\Debug\net8.0\ECommerce.Mapper.pdb
+C:\Users\namjoon\source\repos\ECommerce\Presentation\ECommerce.API\bin\Debug\net8.0\SendGrid.dll
+C:\Users\namjoon\source\repos\ECommerce\Presentation\ECommerce.API\bin\Debug\net8.0\StarkbankEcdsa.dll
+C:\Users\namjoon\source\repos\ECommerce\Presentation\ECommerce.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\namjoon\source\repos\ECommerce\Presentation\ECommerce.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

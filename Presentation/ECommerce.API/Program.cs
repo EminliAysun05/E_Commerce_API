@@ -2,6 +2,7 @@ using ECommerce.Persistance;
 using ECommerce.Application;
 using ECommerce.Mapper;
 using ECommerce.Application.Repositories.Interfaces.AutoMapper;
+using ECommerce.Application.Exceptions;
 
 
 namespace ECommerce.API
@@ -18,6 +19,7 @@ namespace ECommerce.API
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			builder.Services.AddEndpointsApiExplorer();
 			builder.Services.AddSwaggerGen();
+		
 			var env = builder.Environment;	
 
 			builder.Configuration.SetBasePath(env.ContentRootPath)
@@ -27,6 +29,7 @@ namespace ECommerce.API
 			builder.Services.AddPersistance(builder.Configuration);
 			builder.Services.AddApplication();
 			builder.Services.AddMapper();
+			builder.Services.AddTransient<ExceptionMiddleWare>();
 
 			var app = builder.Build();
 
@@ -37,8 +40,10 @@ namespace ECommerce.API
 				app.UseSwaggerUI();
 			}
 
-			app.UseHttpsRedirection();
-
+			//app.UseHttpsRedirection();
+			app.ConfigureExceptionHandler();
+			//app.UseMiddleware<ExceptionMiddleWare>();
+			
 			app.UseAuthorization();
 
 

@@ -25,6 +25,8 @@ namespace ECommerce.Application.Repositories.Interfaces
 			Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = null,
 			bool enableTracking = false);
 
+		//Task<List<T>> GetListAsync(Expression<Func<T, bool>> predicate);
+
 		IQueryable<T> Find(Expression<Func<T, bool>> predicate, bool enableTracking = false);
 
 		Task<int> CountAsync(Expression<Func<T, bool>>? predicate = null);

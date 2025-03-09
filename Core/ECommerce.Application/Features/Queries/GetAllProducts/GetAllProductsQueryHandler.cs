@@ -4,50 +4,45 @@ using ECommerce.Application.Repositories.UnitOfWorks;
 using ECommerce.Domain.Entities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Product = ECommerce.Domain.Entities.Product;
 
-namespace ECommerce.Application.Features.Queries.GetAllProducts
+namespace ECommerce.Application.Features.Queries.GetAllProducts;
+
+public class GetAllProductsQueryHandler : IRequestHandler<GetAllProductsQueryRequest, IList<GetAllProductsQueryResponse>>
 {
-	public class GetAllProductsQueryHandler : IRequestHandler<GetAllProductsQueryRequest, IList<GetAllProductsQueryResponse>>
+	private readonly IUnitOfWork unitOfWork;
+	public readonly IMapper mapper;
+
+	public GetAllProductsQueryHandler(IUnitOfWork unitOfWork, IMapper mapper)
 	{
-		private readonly IUnitOfWork unitOfWork;
-		public readonly IMapper mapper;
-
-		public GetAllProductsQueryHandler(IUnitOfWork unitOfWork, IMapper mapper)
-		{
-			this.unitOfWork = unitOfWork;
-			this.mapper = mapper;
-		}
+		this.unitOfWork = unitOfWork;
+		this.mapper = mapper;
+	}
 
 
 
-		public async Task<IList<GetAllProductsQueryResponse>> Handle(GetAllProductsQueryRequest request, CancellationToken cancellationToken)
-		{
-			var products = await unitOfWork.GetReadRepoitory<Product>().GetAllAsync(include: x=>x.Include(b=>b.Brand));
+	public async Task<IList<GetAllProductsQueryResponse>> Handle(GetAllProductsQueryRequest request, CancellationToken cancellationToken)
+	{
+		var products = await unitOfWork.GetReadRepoitory<Product>().GetAllAsync(include: x=> x.Include(b => b.Brand));
+		Product a = new();
+		var brand = mapper.Map<BrandDto, Brand>(new Brand());
+		//List<GetAllProductsQueryResponse> response = new();
+		//foreach (var product in products)
+		//{
+		//	response.Add(new GetAllProductsQueryResponse
+		//	{
+		//		Title = product.Title,
+		//		Description = product.Description,
+		//		Discount = product.Discount,
+		//		Price = product.Price - (product.Price*product.Discount/100)
+		//	});
+		//}
 
-			var brand = mapper.Map<BrandDto, Brand>(new Brand());
-			//List<GetAllProductsQueryResponse> response = new();
-			//foreach (var product in products)
-			//{
-			//	response.Add(new GetAllProductsQueryResponse
-			//	{
-			//		Title = product.Title,
-			//		Description = product.Description,
-			//		Discount = product.Discount,
-			//		Price = product.Price - (product.Price*product.Discount/100)
-			//	});
-			//}
-
-			var map = mapper.Map<GetAllProductsQueryResponse,Product>(products);
-			foreach (var item in map)
-				item.Price = item.Price - (item.Price * item.Discount / 100);
-			
-
-			return map;
-		}
+		var map = mapper.Map<GetAllProductsQueryResponse, Domain.Entities.Product>(products);
+		foreach (var item in map)
+			item.Price = item.Price - (item.Price * item.Discount / 100);
+	
+		return map;
+		//throw new Exception("error mesaji");
 	}
 }
