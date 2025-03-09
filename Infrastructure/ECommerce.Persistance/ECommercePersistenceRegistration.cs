@@ -1,5 +1,6 @@
 ﻿using ECommerce.Application.Repositories.Interfaces;
 using ECommerce.Application.Repositories.UnitOfWorks;
+using ECommerce.Domain.Entities;
 using ECommerce.Persistance.Context;
 using ECommerce.Persistance.Repostories;
 using ECommerce.Persistance.UnitOfWorks;
@@ -24,5 +25,17 @@ public static class ECommercePersistenceRegistration
 		services.AddScoped(typeof(IReadRepository<>), typeof(ReadRepository<>));
 		services.AddScoped(typeof(IWriteRepository<>), typeof(WriteRepository<>));
 		services.AddScoped<IUnitOfWork, UnitOfWork>();
+		services.AddIdentityCore<User>(opt =>
+			{
+				opt.Password.RequireNonAlphanumeric = false;
+				opt.Password.RequiredLength = 2;
+				opt.Password.RequireLowercase = false;
+				opt.Password.RequireUppercase = false;
+				opt.Password.RequireDigit = false;
+				opt.SignIn.RequireConfirmedEmail = false;
+			})
+			.AddRoles<UserRole>()
+			.AddEntityFrameworkStores<AppDbContext>();
+			
 	}
 }

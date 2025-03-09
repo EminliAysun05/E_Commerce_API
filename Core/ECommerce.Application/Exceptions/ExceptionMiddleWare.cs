@@ -44,7 +44,7 @@ namespace ECommerce.Application.Exceptions
 			List<string> errors = new()
 			{
 			 $"Xeta mesaji: { exception.Message}",
-			 $" Aciqlamasi: {exception.InnerException?.ToString() ?? "no inner exception"}"
+			// $" Aciqlamasi: {exception.InnerException?.ToString() ?? "no inner exception"}"
 			};
 			return httpContext.Response.WriteAsync(new ExceptionModel
 			{

@@ -1,8 +1,9 @@
 using ECommerce.Persistance;
 using ECommerce.Application;
 using ECommerce.Mapper;
-using ECommerce.Application.Repositories.Interfaces.AutoMapper;
+using ECommerce.Application.Interfaces.AutoMapper;
 using ECommerce.Application.Exceptions;
+using ECommerce;
 
 
 namespace ECommerce.API
@@ -30,7 +31,7 @@ namespace ECommerce.API
 			builder.Services.AddApplication();
 			builder.Services.AddMapper();
 			builder.Services.AddTransient<ExceptionMiddleWare>();
-
+		//	builder.Services.AddInfrastructure(builder.Configuration);
 			var app = builder.Build();
 
 			// Configure the HTTP request pipeline.

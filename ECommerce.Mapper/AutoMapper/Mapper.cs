@@ -1,9 +1,12 @@
 ﻿
 using AutoMapper;
+using ECommerce.Application.Interfaces.AutoMapper;
+using IMapper = AutoMapper.IMapper;
+
 
 namespace ECommerce.Mapper.AutoMapper;
 
-public class Mapper : Application.Repositories.Interfaces.AutoMapper.IMapper
+public class Mapper : Application.Interfaces.AutoMapper.IMapper
 {
 	private static readonly List<TypePair> typePairs = new();
 	private static readonly object lockObject = new();

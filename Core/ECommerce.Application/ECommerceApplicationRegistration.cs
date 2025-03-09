@@ -4,6 +4,8 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 using FluentValidation;
 using ECommerce.Application.Beheviors;
+using ECommerce.Application.Features.Products.Rules;
+using ECommerce.Application.Bases;
 
 namespace ECommerce.Application;
 
@@ -14,19 +16,26 @@ public static class ECommerceApplicationRegistration
         var assembly = Assembly.GetExecutingAssembly();
 
         services.AddTransient<ExceptionMiddleWare>();
-
+		
 		services.AddMediatR(assembly);
 		
-		// services.AddValidatorsFromAssembly(assembly);
-		//	services.AddFluentValidationAutoValidation();
-		//.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
-		//services.AddValidatorsFromAssembly(assembly);  // Bu metodu istifadə edin
+		services.AddRulesFromAssemblyContaining(assembly, typeof(BaseRules));
 		services.AddValidatorsFromAssembly(assembly);
 		// IPipelineBehavior qeydiyyatı
 		services.AddTransient(typeof(IPipelineBehavior<,>), typeof(FluentValidationBehevior<,>));
-		//services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(assembly));
-		//services.AddTransient(typeof(IPipelineBehavior<,>), typeof(FluentValidationBehevior<,>));
+		
 
+
+	}
+
+	private static IServiceCollection AddRulesFromAssemblyContaining(this IServiceCollection services, Assembly assembly, Type type)
+	{
+		var ruleTypes = assembly.GetTypes().Where(x => x.IsClass && !x.IsAbstract && x.IsSubclassOf(typeof(BaseRules)));
+		foreach (var ruleType in ruleTypes)
+		{
+			services.AddTransient(ruleType);
+		}
+		return services;
 	}
 }
  

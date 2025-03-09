@@ -1,7 +1,7 @@
 ﻿using ECommerce.Application.Features.Products.Common.CreateProduct;
 using ECommerce.Application.Features.Products.Commands.DeleteProduct;
 using ECommerce.Application.Features.Products.Commands.UpdateProduct;
-using ECommerce.Application.Features.Queries.GetAllProducts;
+using ECommerce.Application.Features.Products.Queries.GetAllProducts;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

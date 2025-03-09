@@ -153,3 +153,4 @@ C:\Users\namjoon\source\repos\ECommerce\Presentation\ECommerce.API\bin\Debug\net
 C:\Users\namjoon\source\repos\ECommerce\Presentation\ECommerce.API\bin\Debug\net8.0\StarkbankEcdsa.dll
 C:\Users\namjoon\source\repos\ECommerce\Presentation\ECommerce.API\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\namjoon\source\repos\ECommerce\Presentation\ECommerce.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\namjoon\source\repos\ECommerce\Presentation\ECommerce.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

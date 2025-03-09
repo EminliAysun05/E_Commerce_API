@@ -1,4 +1,4 @@
-﻿using ECommerce.Application.Repositories.Interfaces.AutoMapper;
+﻿using ECommerce.Application.Interfaces.AutoMapper;
 using ECommerce.Application.Repositories.UnitOfWorks;
 using ECommerce.Domain.Entities;
 using MediatR;

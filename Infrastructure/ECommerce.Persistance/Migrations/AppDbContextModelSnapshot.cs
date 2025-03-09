@@ -49,23 +49,23 @@ namespace ECommerce.Persistance.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 453, DateTimeKind.Utc).AddTicks(6257),
+                            CreatedDate = new DateTime(2025, 3, 9, 9, 10, 28, 604, DateTimeKind.Utc).AddTicks(3016),
                             IsDeleted = false,
-                            Name = "Kids, Automotive & Shoes"
+                            Name = "Jewelery & Home"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 453, DateTimeKind.Utc).AddTicks(6283),
+                            CreatedDate = new DateTime(2025, 3, 9, 9, 10, 28, 604, DateTimeKind.Utc).AddTicks(3071),
                             IsDeleted = false,
-                            Name = "Tools"
+                            Name = "Jewelery"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 453, DateTimeKind.Utc).AddTicks(6339),
+                            CreatedDate = new DateTime(2025, 3, 9, 9, 10, 28, 604, DateTimeKind.Utc).AddTicks(3132),
                             IsDeleted = true,
-                            Name = "Books, Home & Shoes"
+                            Name = "Beauty, Books & Shoes"
                         });
                 });
 
@@ -101,7 +101,7 @@ namespace ECommerce.Persistance.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 453, DateTimeKind.Utc).AddTicks(8430),
+                            CreatedDate = new DateTime(2025, 3, 9, 9, 10, 28, 604, DateTimeKind.Utc).AddTicks(5588),
                             IsDeleted = false,
                             Name = "Electronics",
                             ParentId = 0,
@@ -110,7 +110,7 @@ namespace ECommerce.Persistance.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 453, DateTimeKind.Utc).AddTicks(8432),
+                            CreatedDate = new DateTime(2025, 3, 9, 9, 10, 28, 604, DateTimeKind.Utc).AddTicks(5590),
                             IsDeleted = false,
                             Name = "Fashion",
                             ParentId = 0,
@@ -119,7 +119,7 @@ namespace ECommerce.Persistance.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 453, DateTimeKind.Utc).AddTicks(8434),
+                            CreatedDate = new DateTime(2025, 3, 9, 9, 10, 28, 604, DateTimeKind.Utc).AddTicks(5591),
                             IsDeleted = false,
                             Name = "Laptop",
                             ParentId = 1,
@@ -128,7 +128,7 @@ namespace ECommerce.Persistance.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 453, DateTimeKind.Utc).AddTicks(8436),
+                            CreatedDate = new DateTime(2025, 3, 9, 9, 10, 28, 604, DateTimeKind.Utc).AddTicks(5592),
                             IsDeleted = false,
                             Name = "Woman",
                             ParentId = 2,
@@ -172,28 +172,28 @@ namespace ECommerce.Persistance.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 455, DateTimeKind.Utc).AddTicks(6701),
-                            Description = "Possimus et maxime rem dolor.",
+                            CreatedDate = new DateTime(2025, 3, 9, 9, 10, 28, 605, DateTimeKind.Utc).AddTicks(9257),
+                            Description = "Laboriosam est iure quas et.",
                             IsDeleted = false,
-                            Title = "Atque."
+                            Title = "Mollitia."
                         },
                         new
                         {
                             Id = 2,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 455, DateTimeKind.Utc).AddTicks(6882),
-                            Description = "Facilis magni cum impedit et.",
+                            CreatedDate = new DateTime(2025, 3, 9, 9, 10, 28, 605, DateTimeKind.Utc).AddTicks(9364),
+                            Description = "Culpa ab accusamus iusto tempora.",
                             IsDeleted = false,
-                            Title = "Quia."
+                            Title = "Voluptate."
                         },
                         new
                         {
                             Id = 3,
                             CategoryId = 3,
-                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 455, DateTimeKind.Utc).AddTicks(7051),
-                            Description = "İn voluptas ut ut delectus.",
+                            CreatedDate = new DateTime(2025, 3, 9, 9, 10, 28, 606, DateTimeKind.Utc).AddTicks(2007),
+                            Description = "Omnis nobis quia itaque enim.",
                             IsDeleted = false,
-                            Title = "Et."
+                            Title = "Eum."
                         });
                 });
 
@@ -239,23 +239,23 @@ namespace ECommerce.Persistance.Migrations
                         {
                             Id = 1,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 457, DateTimeKind.Utc).AddTicks(8742),
-                            Description = "İd ut praesentium quo alias suscipit ducimus dicta doloribus nihil.",
-                            Discount = 1m,
+                            CreatedDate = new DateTime(2025, 3, 9, 9, 10, 28, 608, DateTimeKind.Utc).AddTicks(3431),
+                            Description = "Perspiciatis eveniet molestiae libero aut debitis aut est ut corrupti.",
+                            Discount = 9.898630551761370m,
                             IsDeleted = false,
-                            Price = 410.03m,
-                            Title = "Handcrafted Metal Keyboard"
+                            Price = 45.82m,
+                            Title = "Small Granite Chips"
                         },
                         new
                         {
                             Id = 2,
                             BrandId = 3,
-                            CreatedDate = new DateTime(2025, 3, 2, 19, 28, 39, 457, DateTimeKind.Utc).AddTicks(9049),
-                            Description = "Optio voluptatem nihil porro dolore aut dolorum qui suscipit aperiam.",
-                            Discount = 4m,
+                            CreatedDate = new DateTime(2025, 3, 9, 9, 10, 28, 608, DateTimeKind.Utc).AddTicks(3754),
+                            Description = "İpsam ut ad voluptas aut veniam vel et deserunt commodi.",
+                            Discount = 8.557121384668610m,
                             IsDeleted = false,
-                            Price = 711.50m,
-                            Title = "Intelligent Soft Sausages"
+                            Price = 990.74m,
+                            Title = "Small Metal Car"
                         });
                 });
 
@@ -272,6 +272,213 @@ namespace ECommerce.Persistance.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("ProductCategories");
+                });
+
+            modelBuilder.Entity("ECommerce.Domain.Entities.User", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("RefreshToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("RefreshTokenExpiryTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("ECommerce.Domain.Entities.UserRole", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("RoleNameIndex")
+                        .HasFilter("[NormalizedName] IS NOT NULL");
+
+                    b.ToTable("AspNetRoles", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("RoleId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetRoleClaims", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<System.Guid>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserClaims", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<System.Guid>", b =>
+                {
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ProviderKey")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ProviderDisplayName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("LoginProvider", "ProviderKey");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserLogins", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<System.Guid>", b =>
+                {
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("RoleId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("UserId", "RoleId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetUserRoles", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<System.Guid>", b =>
+                {
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Value")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId", "LoginProvider", "Name");
+
+                    b.ToTable("AspNetUserTokens", (string)null);
                 });
 
             modelBuilder.Entity("ECommerce.Domain.Entities.Detail", b =>
@@ -313,6 +520,57 @@ namespace ECommerce.Persistance.Migrations
                     b.Navigation("Category");
 
                     b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<System.Guid>", b =>
+                {
+                    b.HasOne("ECommerce.Domain.Entities.UserRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<System.Guid>", b =>
+                {
+                    b.HasOne("ECommerce.Domain.Entities.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<System.Guid>", b =>
+                {
+                    b.HasOne("ECommerce.Domain.Entities.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<System.Guid>", b =>
+                {
+                    b.HasOne("ECommerce.Domain.Entities.UserRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ECommerce.Domain.Entities.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<System.Guid>", b =>
+                {
+                    b.HasOne("ECommerce.Domain.Entities.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("ECommerce.Domain.Entities.Category", b =>

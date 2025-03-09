@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECommerce.Application.Features.Queries.GetAllBrands
+namespace ECommerce.Application.Bases
 {
-	internal class GetAllBrandQueryResponse
+	public abstract class BaseRules
 	{
 	}
 }
