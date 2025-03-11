@@ -7,12 +7,24 @@
       "RelativeMoniker": "D:0:0:{55327FD4-4309-4304-BA0B-B7639E55FA75}|Infrastructure\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj|solutionrelative:infrastructure\\ecommerce.infrastructure\\tokens\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}|Presentation\\ECommerce.API\\ECommerce.API.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\presentation\\ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}|Presentation\\ECommerce.API\\ECommerce.API.csproj|solutionrelative:presentation\\ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A743F6E4-25E0-4AF1-9AD1-ED89335C0B1D}|ECommerce.Mapper\\ECommerce.Mapper.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\ecommerce.mapper\\automapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A743F6E4-25E0-4AF1-9AD1-ED89335C0B1D}|ECommerce.Mapper\\ECommerce.Mapper.csproj|solutionrelative:ecommerce.mapper\\automapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55327FD4-4309-4304-BA0B-B7639E55FA75}|Infrastructure\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\infrastructure\\ecommerce.infrastructure\\tokens\\tokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55327FD4-4309-4304-BA0B-B7639E55FA75}|Infrastructure\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj|solutionrelative:infrastructure\\ecommerce.infrastructure\\tokens\\tokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55327FD4-4309-4304-BA0B-B7639E55FA75}|Infrastructure\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\infrastructure\\ecommerce.infrastructure\\ecommerceinfrastructureregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55327FD4-4309-4304-BA0B-B7639E55FA75}|Infrastructure\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj|solutionrelative:infrastructure\\ecommerce.infrastructure\\ecommerceinfrastructureregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\features\\auth\\command\\register\\registercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\features\\auth\\command\\register\\registercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}|Presentation\\ECommerce.API\\ECommerce.API.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\presentation\\ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}|Presentation\\ECommerce.API\\ECommerce.API.csproj|solutionrelative:presentation\\ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A743F6E4-25E0-4AF1-9AD1-ED89335C0B1D}|ECommerce.Mapper\\ECommerce.Mapper.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\ecommerce.mapper\\mapperregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +43,12 @@
       "RelativeMoniker": "D:0:0:{320E48E8-B374-4A2D-93CC-9CD2D6EC7423}|Presentation\\ECommerce.API\\ECommerce.API.csproj|solutionrelative:presentation\\ecommerce.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55327FD4-4309-4304-BA0B-B7639E55FA75}|Infrastructure\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\infrastructure\\ecommerce.infrastructure\\tokens\\tokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55327FD4-4309-4304-BA0B-B7639E55FA75}|Infrastructure\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj|solutionrelative:infrastructure\\ecommerce.infrastructure\\tokens\\tokensettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55327FD4-4309-4304-BA0B-B7639E55FA75}|Infrastructure\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\infrastructure\\ecommerce.infrastructure\\ecommerce.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{55327FD4-4309-4304-BA0B-B7639E55FA75}|Infrastructure\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj|solutionrelative:infrastructure\\ecommerce.infrastructure\\ecommerce.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\interfaces\\token\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\interfaces\\token\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A743F6E4-25E0-4AF1-9AD1-ED89335C0B1D}|ECommerce.Mapper\\ECommerce.Mapper.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\ecommerce.mapper\\automapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A743F6E4-25E0-4AF1-9AD1-ED89335C0B1D}|ECommerce.Mapper\\ECommerce.Mapper.csproj|solutionrelative:ecommerce.mapper\\automapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09EBE717-D4A4-4094-899C-C67E48D14FD3}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\users\\namjoon\\source\\repos\\ecommerce\\core\\ecommerce.application\\features\\products\\commands\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,7 +94,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "RegisterCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Auth\\Command\\Register\\RegisterCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Auth\\Command\\Register\\RegisterCommandRequest.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Auth\\Command\\Register\\RegisterCommandRequest.cs",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Features\\Auth\\Command\\Register\\RegisterCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T12:35:11.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.Production.json",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Presentation\\ECommerce.API\\appsettings.Production.json",
               "RelativeDocumentMoniker": "Presentation\\ECommerce.API\\appsettings.Production.json",
@@ -102,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ECommerceInfrastructureRegistration.cs",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Infrastructure\\ECommerce.Infrastructure\\ECommerceInfrastructureRegistration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ECommerce.Infrastructure\\ECommerceInfrastructureRegistration.cs",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Presentation\\ECommerce.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Presentation\\ECommerce.API\\appsettings.Development.json",
@@ -127,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "TokenSettings.cs",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Infrastructure\\ECommerce.Infrastructure\\Tokens\\TokenSettings.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ECommerce.Infrastructure\\Tokens\\TokenSettings.cs",
@@ -135,11 +152,12 @@
               "RelativeToolTip": "Infrastructure\\ECommerce.Infrastructure\\Tokens\\TokenSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T11:03:09.754Z"
+              "WhenOpened": "2025-03-09T11:03:09.754Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ECommerce.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Infrastructure\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj",
@@ -157,14 +175,14 @@
               "RelativeDocumentMoniker": "Infrastructure\\ECommerce.Infrastructure\\Tokens\\TokenService.cs",
               "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Infrastructure\\ECommerce.Infrastructure\\Tokens\\TokenService.cs",
               "RelativeToolTip": "Infrastructure\\ECommerce.Infrastructure\\Tokens\\TokenService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAhwDAAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAASwEwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T11:01:39.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Interfaces\\Token\\ITokenService.cs",
               "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Interfaces\\Token\\ITokenService.cs",
@@ -176,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Presentation\\ECommerce.API\\Program.cs",
               "RelativeDocumentMoniker": "Presentation\\ECommerce.API\\Program.cs",
@@ -184,12 +202,11 @@
               "RelativeToolTip": "Presentation\\ECommerce.API\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T10:38:55.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T10:38:55.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MapperRegistration.cs",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\ECommerce.Mapper\\MapperRegistration.cs",
               "RelativeDocumentMoniker": "ECommerce.Mapper\\MapperRegistration.cs",
@@ -197,24 +214,24 @@
               "RelativeToolTip": "ECommerce.Mapper\\MapperRegistration.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T10:36:12.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T10:36:12.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "Mapper.cs",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\ECommerce.Mapper\\AutoMapper\\Mapper.cs",
               "RelativeDocumentMoniker": "ECommerce.Mapper\\AutoMapper\\Mapper.cs",
               "ToolTip": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\ECommerce.Mapper\\AutoMapper\\Mapper.cs",
               "RelativeToolTip": "ECommerce.Mapper\\AutoMapper\\Mapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T10:35:46.295Z"
+              "WhenOpened": "2025-03-09T10:35:46.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "GetAllProductsQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
               "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
@@ -226,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UpdateProductCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
               "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Features\\Products\\Commands\\UpdateProduct\\UpdateProductCommandHandler.cs",
@@ -238,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IMapper.cs",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\Interfaces\\AutoMapper\\IMapper.cs",
               "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Interfaces\\AutoMapper\\IMapper.cs",
@@ -250,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ECommerceApplicationRegistration.cs",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Application\\ECommerceApplicationRegistration.cs",
               "RelativeDocumentMoniker": "Core\\ECommerce.Application\\ECommerceApplicationRegistration.cs",
@@ -258,12 +275,11 @@
               "RelativeToolTip": "Core\\ECommerce.Application\\ECommerceApplicationRegistration.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T10:32:39.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T10:32:39.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Domain\\Entities\\UserRole.cs",
               "RelativeDocumentMoniker": "Core\\ECommerce.Domain\\Entities\\UserRole.cs",
@@ -275,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\ECommerce\\Core\\ECommerce.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Core\\ECommerce.Domain\\Entities\\User.cs",
